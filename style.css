@@ -1,0 +1,46 @@
+body
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+div{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.span-1
+{
+	width: 100px;
+	height: 80px;
+	background: #00539c;
+	color: white;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40;
+}
+
+.span-2
+{
+    width: 100px;
+	height: 30px;
+	font-size: 12;
+	letter-spacing: 2;
+    color: white;
+	font-weight: bold;
+	background:#01427b;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+}
